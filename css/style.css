@@ -1,0 +1,237 @@
+/* font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header starts */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+}
+.logo img{}
+.unsubscribe{}
+.unsubscribe a{
+    text-decoration: none;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #97999b;
+    
+}
+.unsubscribe a:hover{
+    color: rgb(65, 61, 61);
+}
+/* header end */
+
+.banner{
+    position: relative;
+}
+.banner_img{}
+.banner_img img{
+    width: 100%;
+    height: 500px;
+    opacity: .8;
+}
+.banner_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.banner_text h2{
+    font-family:'Roboto', sans-serif ;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.banner_text p{
+    font-family:'Roboto', sans-serif ;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.banner_text button{
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color:#fb6e52;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.banner_text button i {
+    font-size: 15px;
+    padding: 5px 0 0 5px;
+}
+/* service section start */
+.service{
+
+padding: 50px 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+.single{
+ text-align: center;
+ width: 18%;
+}
+.single img{
+
+}
+.single h3{
+    font-family:'Roboto', sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+   color: #292c34;
+   padding: 20px 0;
+}
+.single p{
+    font-family:'Roboto', sans-serif ;
+    font-weight: 300;
+    font-size: 14px;
+   color: #97999b;
+}
+.intent{
+  width: 52%;
+  margin: 0 auto;
+}
+.intent p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    color: #fb6e52;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* gallery section start */
+.gallery{
+    width: 80%;
+    margin: 0 auto;
+}
+.full_gallery{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.single_gallery{
+    width: 30%;
+    text-align: center;
+
+}
+.single_gallery img{
+    width: 100%;
+    height: 220px;
+}
+.single_gallery h4{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #292c34;
+    margin: 10px 0;
+}
+.single_gallery p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #97999b;
+}
+
+/* blog section */
+.blog_gallery{
+    padding: 30px 0;
+    
+}
+.blog_gallery h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #292c34;
+    text-align: center;
+    margin: 40px 0;
+}
+.blog{
+    display: flex;
+    justify-content: space-around;
+    width: 81%;
+    margin: 0 auto;
+}
+.single_blog{
+    width: 44%;
+}
+.single_blog img{
+    width: 100%;
+    height: 320px;
+}
+.single_blog h3{
+    font-family: 'Roboto',sans-serif;
+    margin: 15px 0;
+    color: #fb6e52;
+    font-size: 18px;
+    font-weight: 400;
+}
+.single_blog p{
+    font-family: 'Roboto',sans-serif;
+    margin: 15px 0;
+    color: #97999b;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+/* footer section */
+
+.footer{
+    
+background-color: #292c34;
+    
+padding: 20px 0;
+}
+.footer_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer_logo{
+}
+.footer_logo ul{
+    display: flex;
+    align-items: center;
+}
+.footer_logo ul li{
+
+list-style: none;
+}
+.footer_logo ul li a{
+    text-decoration: none;
+    color: #797c82;
+    padding: 0 15px;
+}
+.footer_icon{}
+.footer_icon ul{
+    display: flex;
+    list-style: none;
+}
+.footer_icon ul li{}
+.footer_icon ul li a{
+    color: #fff;
+    padding: 0 15px;
+}
+
